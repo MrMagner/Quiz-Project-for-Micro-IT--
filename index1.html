@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Game</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz Game</h1>
+    <img src="https://imgs.search.brave.com/QH-ixynv6zVJsc6VYPsFEYILJeiMcUblzRZG4vJtLhU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LW1hbmFnZW1l/bnQtZmlsZXMuY2Fu/dmEuY29tL2Nkbi1j/Z2kvaW1hZ2UvZj1h/dXRvLHE9NzAvMWNm/YTM3ZjctNjA3Ni00/MTcwLTgyZmMtZDk4/OGYyYzc2MWFlL3F1/aXp6ZXNfcmVzb3Vy/Y2VzX3doaWNoLWNy/ZWF0aXZlLWdlbml1/cy1hcmUteW91XzJ4/LnBuZw" 
+     alt="Quiz Illustration" 
+     class="quiz-image">
+
+    <div id="quiz-box">
+      <div id="question">Loading question...</div>
+      <div id="options"></div>
+      <button id="nextBtn">Next</button>
+    </div>
+    <div id="result-box" class="hidden">
+      <h2>Your Score: <span id="score"></span></h2>
+      <button onclick="restartQuiz()">Play Again</button>
+    </div>
+  </div>
+  <script src="script1.js"></script>
+</body>
+</html>
